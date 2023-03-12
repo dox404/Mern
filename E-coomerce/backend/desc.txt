@@ -1,0 +1,8 @@
+If the nodemon is not starting ,it throughs error in "execution policy" then we have to change the exection policy via powershell and
+step1: at first open windows poershell as administrator 
+step 2:the type -"get-executionpolicy" 
+    if the execution policy is restricted then we have to change it as unrestricted
+step 3: to change the execution policy type -"set-executionpolicy" and the hit enter
+
+
+it will solve the nodemon problem
